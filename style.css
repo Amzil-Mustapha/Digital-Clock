@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    display: grid;
+    place-items: center;
+}
+
+#dayIntro{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 7px solid rgb(17, 129, 134);
+    border-radius: 10px;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    background: linear-gradient(180deg, #80a4da, rgb(141, 40, 161));
+}
+
+.container{
+    height: 120px;
+    width: 550px;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+}
+
+.container .dispClock,
+.container{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container .dispClock{
+    top: 7%;
+    height: 105px;
+    width: 535px;
+    background: linear-gradient(147deg, #000 0%, #2c3e50 74%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dispClock #time {
+    line-height: 85px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
